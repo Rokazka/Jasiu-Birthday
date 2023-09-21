@@ -10,7 +10,7 @@ console.log(envelope);
 function openLtter() {
     letter.classList.toggle('active');
     circle.classList.toggle('heart-active');
-    video.play();
+    // video.play();
     if (circle.classList.contains('heart-active')) {
 
         h1.classList.remove('changeTwo')
