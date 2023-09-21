@@ -51,13 +51,13 @@ video {
 
 h3 {
     text-align: center;
-    color: wheat;
+    color: #3333;
     font-size: 1.4rem;
 }
 
 p {
     text-align: center;
-    color: wheat;
+    color: #333;
     font-size: 1.1rem;
     padding: 20px 10px;
 }
@@ -129,7 +129,7 @@ p {
 .letter {
     width: 90%;
     height: 90%;
-    background-color: wheat;
+    /* background-color: wheat; */
     border-radius: 10px;
     transition: all 3s;
     padding: 20px 10px;
