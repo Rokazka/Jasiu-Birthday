@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -17,7 +17,7 @@ h1 {
     z-index: 10;
     color: #b78727;
     position: relative;
-    font-size: 3.6rem;
+    font-size: 2.6rem;
     text-align: center;
     padding: 0px 10px;
     text-transform: uppercase;
@@ -239,6 +239,17 @@ p {
     }
     .letter {
         width: 85%;
+    }
+    h3 {
+        color: #333;
+    }
+    p {
+        color: #333;
+    }
+    h1 {
+        color: #b78727;
+        font-size: 1.9rem;
+        margin-top: 0px;
     }
 }
 
