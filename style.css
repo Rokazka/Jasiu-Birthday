@@ -129,7 +129,7 @@ p {
 .letter {
     width: 90%;
     height: 90%;
-    /* background-color: wheat; */
+    background-color: wheat;
     border-radius: 10px;
     transition: all 3s;
     padding: 20px 10px;
@@ -139,7 +139,6 @@ p {
     z-index: 1;
     opacity: 0;
     object-fit: contain;
-    background-image: url(/img/btw.jpg);
     background-position: center center;
 }
 
