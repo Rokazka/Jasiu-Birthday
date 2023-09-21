@@ -2,9 +2,7 @@ const circle = document.querySelector(".heart");
 const letter = document.querySelector(".letter");
 const envelope = document.querySelector(".envelope-open");
 const h1 = document.querySelector("h1");
-const video = document.querySelector("video");
-
-console.log(envelope);
+// const video = document.querySelector("video");
 
 
 function openLtter() {
