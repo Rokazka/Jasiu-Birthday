@@ -253,8 +253,8 @@ p {
 @media screen and (max-width: 414px) {
     .envelope-open {
         border-top: 170px solid rgb(219, 121, 17);
-        border-right: 140px solid transparent;
-        border-left: 140px solid transparent;
+        border-right: 120px solid transparent;
+        border-left: 120px solid transparent;
         border-radius: 15px;
     }
     .envelope::after {
@@ -274,14 +274,14 @@ p {
     h3 {
         text-align: center;
         padding: 10px;
-        color: wheat;
+        color: rgb(46, 45, 42);
     }
     p {
         text-align: center;
-        color: wheat;
+        color: rgb(35, 34, 33);
     }
     h1 {
-        margin: 50px;
+        margin: 30px;
     }
 }
 
