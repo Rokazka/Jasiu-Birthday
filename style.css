@@ -337,7 +337,7 @@ p {
 /* Koniec samsung fold */
 
 .active {
-    bottom: 90px;
+    bottom: 130px;
     transition: all 3s;
     display: flex;
     z-index: 4;
