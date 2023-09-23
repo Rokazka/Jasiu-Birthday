@@ -341,7 +341,7 @@ p {
     transition: all 3s;
     display: flex;
     z-index: 4;
-    transition-delay: 1s;
+    transition-delay: 0.8s;
     opacity: 1;
 }
 
@@ -351,6 +351,7 @@ p {
     left: 0px;
     animation: heartBeatClose 3s infinite;
     transition: all 3s;
+    transition-delay: 6s;
 }
 
 .change {
@@ -366,13 +367,13 @@ p {
 
 .open {
     transform: rotateX(180deg);
-    transition-delay: 1.2s;
+    transition-delay: 0.4s;
     top: -10px;
 }
 
 .close {
     transform: rotateX(0deg);
-    transition-delay: 1.1s;
+    transition-delay: 2.2s;
     top: 0;
 }
 

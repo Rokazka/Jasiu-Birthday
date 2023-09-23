@@ -10,7 +10,7 @@ function openLtter() {
     circle.classList.toggle('heart-active');
     // video.play();
     if (circle.classList.contains('heart-active')) {
-
+        circle.classList.add('heart-active');
         h1.classList.remove('changeTwo')
         h1.classList.add('change')
         envelope.classList.remove("close");
