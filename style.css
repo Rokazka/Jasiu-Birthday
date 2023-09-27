@@ -373,6 +373,7 @@ p {
     transform: rotateX(180deg);
     transition-delay: 0.4s;
     top: -10px;
+    border-radius: 0px;
 }
 
 .close {
