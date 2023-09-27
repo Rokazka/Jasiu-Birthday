@@ -8,19 +8,21 @@ const h1 = document.querySelector("h1");
 function openLtter() {
     letter.classList.toggle('active');
     circle.classList.toggle('heart-active');
-    // video.play();
+
     if (circle.classList.contains('heart-active')) {
         circle.classList.add('heart-active');
         h1.classList.remove('changeTwo')
         h1.classList.add('change')
         envelope.classList.remove("close");
         envelope.classList.add("open");
+        video.play();
 
     } else {
         h1.classList.remove('change')
         h1.classList.add('changeTwo')
         envelope.classList.remove("open");
         envelope.classList.add("close");
+        video.pause();
     }
 
 
