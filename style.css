@@ -297,6 +297,9 @@ p {
         font-size: 1.5rem;
         margin-top: 0px;
     }
+    .active {
+        bottom: 1370px;
+    }
 }
 
 @media screen and (width:280px) {
@@ -373,15 +376,12 @@ p {
     transform: rotateX(180deg);
     transition-delay: 0.4s;
     top: -10px;
-    border-radius: 0px;
-    z-index: 3;
 }
 
 .close {
     transform: rotateX(0deg);
     transition-delay: 2.1s;
     top: 0;
-    z-index: 3;
 }
 
 .circle {
@@ -395,8 +395,4 @@ p {
     cursor: pointer;
     position: relative;
     top: 0;
-}
-
-.video-active {
-    z-index: 0;
 }
