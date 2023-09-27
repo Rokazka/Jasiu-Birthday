@@ -8,7 +8,7 @@ const video = document.querySelector("video");
 function openLtter() {
     letter.classList.toggle('active');
     circle.classList.toggle('heart-active');
-    video.play();
+
 
     if (circle.classList.contains('heart-active')) {
         circle.classList.add('heart-active');
@@ -16,6 +16,7 @@ function openLtter() {
         h1.classList.add('change')
         envelope.classList.remove("close");
         envelope.classList.add("open");
+        video.play().classList.add('video-active');
 
 
 
