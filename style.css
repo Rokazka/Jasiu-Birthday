@@ -298,9 +298,6 @@ p {
         font-size: 1.8rem;
         margin-top: 0px;
     }
-    .active {
-        bottom: 1370px;
-    }
 }
 
 @media screen and (width:280px) {
