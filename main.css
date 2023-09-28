@@ -345,19 +345,16 @@ p {
     transition: all 3s;
     display: flex;
     z-index: 4;
-    transition-delay: 0.8s;
     opacity: 1;
 }
 
 .heart-active {
     position: absolute;
-    bottom: 60px;
-    left: 60px;
-    animation: heartBeatClose 3s infinite;
-    transition: all 3s;
-    transition-delay: 6s;
     left: 11%;
     top: 63%;
+    animation: heartBeatClose 3s infinite;
+    transition: all 3s;
+    transition-delay: 0.2s;
 }
 
 .change {
@@ -375,11 +372,12 @@ p {
     transform: rotateX(180deg);
     transition-delay: 0.4s;
     top: -10px;
+    transition: all 0.4s;
 }
 
 .close {
     transform: rotateX(0deg);
-    transition-delay: 2.2s;
+    transition-delay: 2s;
     top: 0;
 }
 
@@ -394,4 +392,8 @@ p {
     cursor: pointer;
     position: relative;
     top: 0;
+}
+
+.active-heart {
+    transition-delay: 1.2s;
 }

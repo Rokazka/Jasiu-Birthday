@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -86,16 +86,17 @@ p {
     background-color: transparent;
     box-shadow: 10px 10px 30px rgba(245, 124, 3, 0.4);
     /* background-image: url(/img/btw.jpg); */
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border: 1px solid rgb(189, 154, 116);
-}
 
+z-index: 1;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+border: 1px solid rgb(189, 154, 116);
+
+}
 .envelope-open {
     position: absolute;
     border-top: 170px solid rgb(219, 121, 17);
@@ -108,7 +109,6 @@ p {
     z-index: 3;
     transition: transform 0.25s linear;
 }
-
 .envelope::after {
     content: '';
     position: absolute;
@@ -125,7 +125,6 @@ p {
     margin-bottom: 10px;
     z-index: 5;
 }
-
 .letter {
     width: 90%;
     height: 90%;
@@ -141,7 +140,6 @@ p {
     object-fit: contain;
     background-position: center center;
 }
-
 .heart {
     width: 80px;
     height: 50px;
@@ -153,7 +151,6 @@ p {
     left: 39%;
     top: 43%;
 }
-
 .heart:before,
 .heart:after {
     position: absolute;
@@ -172,7 +169,6 @@ p {
     box-shadow: 3px 3px 4px black;
     transition: all 3s;
 }
-
 .heart:after {
     left: 15px;
     bottom: 10px;
@@ -182,50 +178,52 @@ p {
     z-index: 5;
     height: 52px;
 }
-
 @keyframes heartBeat {
     from {
         transform: scale(0.6);
     }
+    
     to {
         transform: scale(0.9);
     }
 }
-
 @media screen and (max-width: 1400px) {
     .video-background {
         height: 100vh;
         width: 100vw;
     }
+    
     video {
         object-fit: cover;
     }
+    
     h1 {
         font-size: 1.6rem;
         margin-bottom: 0px;
     }
 }
-
 @keyframes heartBeatClose {
     from {
         transform: scale(0.9);
         transition: all 3s;
     }
+    
     to {
         transform: scale(0.6);
         transition: all 3s;
     }
 }
-
 @media screen and (max-width: 550px) {
     .video-background {
         width: 100%;
         height: 100%;
     }
+    
     .envelope {
         width: 90%;
         height: 240px;
     }
+    
     .envelope-open {
         border-top: 115px solid rgb(219, 121, 17);
         border-right: 170px solid transparent;
@@ -233,6 +231,7 @@ p {
         border-radius: 40px;
         transition: transform 0.25s linear;
     }
+    
     .envelope::after {
         border-bottom: 100px solid rgba(239, 129, 20, 084);
         ;
@@ -241,15 +240,19 @@ p {
         border-top: 110px solid transparent;
         border-radius: 20px;
     }
+    
     .letter {
         width: 85%;
     }
+    
     h3 {
         color: #333;
     }
+    
     p {
         color: #333;
     }
+    
     h1 {
         color: #b78727;
         font-size: 1.9rem;
@@ -257,17 +260,17 @@ p {
     }
 }
 
-
 /* Na samsung Fold */
-
 @media screen and (max-width:450px) {
     .letter-container {
         width: 70%;
     }
+    
     .envelope {
         width: 75%;
         height: 220px;
     }
+    
     .envelope-open {
         border-top: 95px solid rgb(219, 121, 17);
         border-right: 140px solid transparent;
@@ -275,6 +278,7 @@ p {
         border-radius: 25px;
         transition: transform 0.25s linear;
     }
+    
     .envelope::after {
         border-bottom: 98px solid rgba(239, 129, 20, 084);
         ;
@@ -283,31 +287,36 @@ p {
         border-top: 95px solid transparent;
         border-radius: 15px;
     }
+    
     .letter {
         width: 85%;
     }
+    
     h3 {
         color: #333;
         font-size: 1.1rem;
     }
+    
     p {
         color: #333;
     }
+    
     h1 {
         color: #b78727;
         font-size: 1.8rem;
         margin-top: 0px;
     }
 }
-
 @media screen and (width:280px) {
     .letter-container {
         width: 70%;
     }
+    
     .envelope {
         width: 60%;
         height: 180px;
     }
+    
     .envelope-open {
         border-top: 65px solid rgb(219, 121, 17);
         border-right: 110px solid transparent;
@@ -315,6 +324,7 @@ p {
         border-radius: 30px;
         transition: transform 0.25s linear;
     }
+    
     .envelope::after {
         border-bottom: 65px solid rgba(239, 129, 20, 084);
         ;
@@ -323,15 +333,19 @@ p {
         border-top: 95px solid transparent;
         border-radius: 20px;
     }
+    
     .letter {
         width: 85%;
     }
+    
     h3 {
         color: #333;
     }
+    
     p {
         color: #333;
     }
+    
     h1 {
         color: #b78727;
         font-size: 1.3rem;
@@ -339,9 +353,7 @@ p {
     }
 }
 
-
 /* Koniec samsung fold */
-
 .active {
     bottom: 120px;
     transition: all 4s;
@@ -350,7 +362,6 @@ p {
     transition-delay: 1.4s;
     opacity: 1;
 }
-
 .heart-active {
     position: absolute;
     left: 11%;
@@ -358,32 +369,29 @@ p {
     animation: heartBeatClose 3s infinite;
     transition: all 4s;
 }
-
 .change {
     display: flex;
     transition: all 2.5s;
     transform: translateY(-120px);
 }
-
 .changeTwo {
     transition: all 5s;
     transition-delay: 1.4s;
 }
-
 .open {
     transform: rotateX(180deg);
     transition: all 2s;
     /* transition-delay: 0.4s; */
+    
     top: -10px;
 }
-
 .close {
     transform: rotateX(0deg);
     /* transition-delay: 0.1s; */
+    
     top: 0;
     transition: all 6s;
 }
-
 .circle {
     width: 40px;
     height: 40px;
@@ -396,3 +404,4 @@ p {
     position: relative;
     top: 0;
 }
+*/

@@ -22,6 +22,7 @@ function openLtter() {
         envelope.classList.remove("open");
 
         envelope.classList.add("close");
+        circle.classList.add('active-heart');
     }
 
 
